@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CS3270A6 - Chris Pink</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit">Edit</string>
+    <string name="plus_sign">+</string>
+    <string name="title">Baseball Batting Order</string>
+    <string name="batting_order">Batting Order</string>
+    <string name="player_name">Player Name</string>
+    <string name="position">Position</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string-array name="positions">
+        <item >FB</item>
+        <item >SB</item>
+        <item >TB</item>
+        <item >CA</item>
+        <item >PI</item>
+        <item >LF</item>
+        <item >CF</item>
+        <item >RF</item>
+        <item >SS</item>
+    </string-array>
+
+</resources>

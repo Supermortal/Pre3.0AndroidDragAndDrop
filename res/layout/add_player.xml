@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/playerLabel"
+            android:gravity="right"
+            android:layout_weight=".30"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/white"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/player_name" />
+
+        <EditText
+            android:id="@+id/playerText"
+            android:hint="@string/player_name"
+            android:layout_weight=".70"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:ems="10">
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/positionLabel"
+            android:gravity="right"
+            android:layout_weight=".30"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/white"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/position" />
+
+        <EditText
+            android:id="@+id/positionText"
+            android:hint="@string/position"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70"
+            android:ems="10" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/orderLabel"
+            android:gravity="right"
+            android:layout_weight=".30"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/white"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/batting_order" />
+
+        <EditText
+            android:id="@+id/orderText"
+            android:hint="@string/batting_order"
+            android:inputType="number"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70"
+            android:ems="10" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/deleteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/deleteLabel"
+            android:gravity="right"
+            android:layout_weight=".30"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/white"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/delete" />
+        
+        <CheckBox
+            android:id="@+id/deleteBox"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70" />
+
+    </LinearLayout>
+
+</LinearLayout>
