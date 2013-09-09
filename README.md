@@ -14,6 +14,7 @@ You create the DragDropTouchListener, and then add onDrop and onDrag listeners t
 DragDropTouchListener like so:
 
 DragDropTouchListener dndListener = new DragDropTouchListener(mainLayout, mainScrollView, 0);
+(the scrollview can be null, and the third argument is the fault tolerance in the drop based in pixels; adjust this if your drop is buggy)
 dndListener.setOnDroppedListener(onDrop);
 dndListener.setOnDraggedListener(onDrag);
 
